@@ -1,0 +1,420 @@
+m_PlaySounds:1
+m_AssumeSlowAcAsStandby:0
+m_ShowAirspaceLines:1
+m_ShowRouteFixName:1
+m_ShowRouteETA:1
+m_ShowCalculatedHeading:1
+m_ShowSimulatedData:0
+m_TransitionAltitude:6000
+m_AllowConcernedACTagDown:1
+m_CenterlineDme:0.0
+m_CenterlineLength:20.0
+m_CenterlineTickDme:5.0
+m_CenterlineTickInterval:1.0
+m_CenterlineTickLength:0.5
+m_CenterlineMarkerLength:1.0
+m_CenterlineMarkerInterval:5.0
+m_CenterlineVectorDme:5.0
+m_CenterlineVectorLength:3.0
+m_CenterlineVectorAngle:45.0
+m_CenterlineVectorBase:5.0
+m_STCA_LowShow:0
+m_STCA_LowVertical:900
+m_STCA_LowHorizontal:4.0
+m_STCA_LowBottom:5000
+m_STCA_HighShow:0
+m_STCA_HighVertical:900
+m_STCA_HighHorizontal:4.0
+m_STCA_HighBottom:18000
+m_ExtendedCenterlinActiveArr:1
+m_UseHoveringTagForKeys:1
+m_AutoMessageForTextAircraft:1
+m_ShowRouteWhenAccepting:0
+m_AllowAssumedACTagDown:1
+m_InhibitAutoPushOnHandoff:0
+m_RandomSquawks:0
+m_VFRSquawks:7000
+m_WhoIsOnlineURL:http://vatsim.metacraft.com/vatsim-data.txt
+m_AutoLoadMetarForActiveAirports:1
+m_LockShowRouteWhenAccepting:0
+m_VoiceAtisBuilderUrl:https://vatis.ru/atis.php?c=E71E9B7&arrp=$atisairport&arr=$arrrwy($atisairport)&dep=$deprwy($atisairport)&info=$atiscode
+m_DoNotUseAcceptedColor:0
+m_DoNotUseRefusedColor:0
+SET_TransparentAcListBackground:0
+m_PutIncomingCoordinationToFirst:0
+m_AutoProxyMode:0
+m_TransparentAcListSelectedBackground:0
+m_TransparentDetailedTagBackground:1
+m_TransparentDetailedTagSelectedItemBackground:1
+m_AllowDirectBeyondCOPX:0
+m_ShowAtisLetterInMETAR:0
+m_ShowCLAMWarnings:1
+m_ShowRAMWarning:1
+m_MagneticNorthUp:1
+m_ShowAForAltitudes:1
+m_Show500ForNonVisual:1
+SET_SetActiveAptBySectors:0
+SET_CapitalizeFPAndScratch:0
+m_SET_WTC_Light:L
+SET_WTC_Medium:M
+SET_WTC_Heavy:H
+SET_WTC_A380:J
+m_RotateRouteTexts:1
+m_NeverCloseFreqChat:1
+m_KeepScratchPadAfterDirect:1
+m_HiliteASELAircraft:0
+m_EnableVoiceRecognition:0
+m_VoiceRecognitionStyle:2
+m_SModeTransponders:IEFGRWQ
+m_CorrelationMode:0
+m_CorrelationDistance:30
+m_SimulateRadars:0
+m_AllowCorrelatedTAGDown:1
+m_ShowDetailedOverUntagged:1
+m_ShowRectAroundFPTrack:1
+m_ShowRectAroundASEL:0
+m_VatsimStatusURL:http://status.vatsim.net/
+m_OverrideWhoIsOnlineURL:0
+m_ShowVFRFlightPlanTrack:1
+m_ShowIFRFlightPlanTrack:1
+m__AutoStartFlightPlanTracks:1
+m_UnicomFrequency:122.8
+m_MessageInfoLevel:1
+m_MessageWarningLevel:2
+m_MessageErrorLevel:4
+m_PointOutLevel:4
+m_HandoffRequestLevel:4
+m_CoordinationRequestLevel:4
+m_HandoffAcceptLevel:0
+m_HandoffRefuseLevel:2
+m_CoordinationAcceptLevel:0
+m_CoordinationRefuseLevel:2
+m_ServerMessageLevel:2
+m_AtcMessageLevel:2
+m_BroadcastMessageLevel:2
+m_SupMessageLevel:4
+m_AtisMessageLevel:0
+m_PrivateMessageLevel:4
+m_FreqMessageLevel:4
+m_MericUnits:0
+m_ShowCorrelatedInFpList:0
+m_ShowUncorrelatedInFpList:1
+m_ShowVFRInFpList:1
+m_ShowIFRInFpList:1
+m_ShowConcernedInFpList:1
+m_ShowUnconcernedInFpList:0
+m_ZoomCenterUnderMouse:1
+m_AseURL:http://www.craig-phillips.co.uk/ase/repository/
+m_STCA_LowPreWarnTime:45
+m_STCA_LowWarnTime:45
+m_HighPreWarnTime:40
+m_STCA_HighWarnTime:40
+m_STCA_ShowCFL:0
+m_STCA_PlaySoundOnCFL:0
+m_STCA_PlaySoundOnTrackedOnly:0
+m_AutoCorrelateDisabledSQs:1200,2000,2200,7000,7700,7600,7500,1234
+m_DontAutoCorrelateDuplicated:1
+m_AcceptPilotSquawkForCorrelation:1
+m_MTCA_Floor:0
+m_MTCA_AltitudeDifference:0
+m_MTCA_Distance:0.0
+m_UseIsectForScratchPad:1
+m_RotateRadarTargetSymbol:0
+m_RotateFlightPlanTrackSymbol:0
+m_RubberHeadingRounding:5
+SqawkForSModeTransponder:
+m_TransparentTagBackground:1
+m_UseArrDepTagBgColor:0
+SET_MTCA_Show:0
+m_TaxiOutTime:7
+m_StartupTime:10
+m_ConnectTime:15
+m_AutoAssumeOnGroundStateChangeButton:0
+m_ShowTrackMilesInRouteButton:1
+m_FilterOutSquawks:
+m_EquipmentsIcaoFormat:1
+m_DoNotShowMessageHandlersInProxy:0
+m_DoNotShowMessageHandlersInMainIfProxyConnected:0
+m_ShowControllers:1
+m_ShowAircraft:1
+m_ShowTextMessages:0
+m_ShowTitle:1
+m_ShowTitleFileName:1
+m_ShowTitleController:1
+m_ShowTitlePrimaryFreq:1
+m_ShowTitleAtisFreq:0
+m_ShowTitleClock:1
+m_ShowTitleLeader:1
+m_ShowTitleFilter:1
+m_ShowTitleTrans:1
+m_ShowVoiceRoomUsers:0
+m_ShowFSSControllers:1
+m_ShowCTRControllers:1
+m_ShowAPPControllers:1
+m_ShowTWRControllers:1
+m_ShowGNDControllers:1
+m_ShowATISControllers:1
+m_ShowOBSControllers:1
+m_ShowUnidentifiedControllers:1
+m_ShowFreqUsers:1
+m_ShowAtisUsers:1
+m_ShowArrivalPlanes:1
+m_ShowDeparturePlanes:1
+m_ShowOverflightPlanes:1
+SET_ShowTrackingPlanes:1
+m_METARList:1
+m_ShowTitleMetar:1
+m_ConnectSELtoSIL:1
+m_ConnectDEPtoSEL:1
+m_ConnectSILtoTOP:0
+m_ScreenNumber:1
+m_ScreenPosition:0
+m_ScreenMaximized:0
+m_ShowTitleSelectedAc:0
+m_PlanesListX:1053
+m_PlanesListY:24
+m_MetarListX:1609
+m_MetarListY:49
+m_VoiceListX:1175
+m_VoiceListY:54
+m_ControllerListX:1468
+m_ControllerListY:49
+m_ShowPlaneRangeRingsTracked:0
+m_ShowPlaneRangeRingsUntracked:0
+m_PlaneRangeRingsDistance1:1.5
+m_PlaneRangeRingsDistance2:2.5
+m_PlaneRangeRingsDistance3:5.0
+m_PlaneRangeRingsDistance4:0.0
+m_ShowTooltips:1
+m_OnTheGroundAltitude:2800
+m_OnTheGroundSpeed:50
+m_ShowCdtOnCflCheck:0
+m_ShowTsVccsMiniControl:1
+ScenarioEditorX:0
+ScenarioEditorY:0
+m_ShowSTARControllers:1
+MessageLinesNumber:4
+BackgroundGrphicsInThread:1
+VOICE
+AG:UIII_ATIS:126.900
+AG:UIII_CTR:133.400
+AG:UIII_APP:125.200
+AG:UIII_R_APP:119.300
+AG:UIII_TWR:118.100
+AG:UIII_GND:121.700
+AG:UIAA_APP:122.000
+AG:UIAA_TWR:118.200
+AG:UIAA_ATIS:134.800
+AG:UIUU_APP:129.300
+AG:UIUU_TWR:118.100
+AG:UIUU_ATIS:126.600
+AG:UIBB_APP:118.100
+AG:UIBB_TWR:121.800
+AG:UIBB_ATIS:127.200
+AG:UIKK_TWR:119.300
+AG:UITT_ATIS:127.400
+AG:UIII_W_CTR:133.800
+AG:UIII_N_CTR:131.000
+AG:UIII_E_CTR:131.700
+AG:UIKB_TWR:124.400
+AG:UITT_TWR:118.300
+AG:UIUN_TWR:132.000
+END
+PROFILE
+PROFILE:UIII_APP:135:5
+ATIS2:Irkutsk-Approach. Иркутск-Подход
+ATIS3:From FL80 to FL200
+ATIS4:Discord Irkutsk ACC  https
+PROFILE:UIII_R_APP:140:5
+ATIS2:Irkutsk-Radar. Иркутск-Круг
+ATIS3:From 200m to FL80
+ATIS4:Discord Irkutsk ACC https
+PROFILE:UIII_TWR:30:4
+ATIS2:Irkutsk-Tower. Иркутск-Вышка.
+ATIS3:From GND to 500m
+ATIS4:Discord Irkutsk ACC  https
+PROFILE:UIII_GND:19:3
+ATIS2:Irkutsk-Ground. Иркутск-Руление. GND
+ATIS3:Discord Irkutsk ACC  https
+ATIS4:
+PROFILE:UIII_CTR:400:6
+ATIS2:Irkutsk-Control. Иркутск-Контроль
+ATIS3:From GND to UNL
+ATIS4:Discord Irkutsk ACC  https
+PROFILE:UIBB_APP:135:5
+ATIS2:Bratsk-Approach. Братск-Подход. GND-FL200
+ATIS3:Discord Irkutsk ACC  https
+ATIS4:
+PROFILE:UIAA_APP:135:5
+ATIS2:Chita-Approach. Чита-Подход. GND-FL230.
+ATIS3:Discord Irkutsk ACC  https
+ATIS4:
+PROFILE:UIUU_APP:90:5
+ATIS2:Ulan-Ude Approach. Улан-Удэ-Подход. GND-FL200
+ATIS3:Discord Irkutsk ACC https
+ATIS4:
+PROFILE:UIUU_TWR:30:4
+ATIS2:Ulan-Ude Tower. Улан-Удэ-Вышка
+ATIS3:Discord Irkutsk ACC  https
+ATIS4:
+PROFILE:UIAA_TWR:30:4
+ATIS2:Chita-Tower. Чита-Вышка. 
+ATIS3:Discord Irkutsk ACC  https
+ATIS4:
+PROFILE:UIBB_TWR:30:4
+ATIS2:Bratsk-Tower. Братск-Вышка.
+ATIS3:Discord Irkutsk ACC  https
+ATIS4:
+PROFILE:Your callsign:135:0
+ATIS2:
+ATIS3:
+ATIS4:
+PROFILE:UIII_E_CTR:400:6
+ATIS2:Irkutsk-Control E. Иркутск-Контроль E
+ATIS3:From GND to UNL
+ATIS4:Discord Irkutsk ACC  https
+PROFILE:UIII_W_CTR:400:6
+ATIS2:Irkutsk-Control W. Иркутск-Контроль W
+ATIS3:From GND to UNL
+ATIS4:Discord Irkutsk ACC  https
+PROFILE:UIII_N_CTR:400:6
+ATIS2:Irkutsk-Control N. Иркутск-Контроль N
+ATIS3:From GND to UNL
+ATIS4:Discord Irkutsk ACC  https
+END
+PLUGINS
+UK Controller Plugin:prenoteNotify:0
+UK Controller Plugin:autoAssignSquawks:1
+UK Controller Plugin:autoAssignInitialAltitudes:1
+UK Controller Plugin:notifyPressureChanges:1
+UK Controller Plugin:useBlankForUnknownTimes:0
+UK Controller Plugin:timer1Duration:30
+UK Controller Plugin:timer1Enabled:1
+UK Controller Plugin:timer2Duration:60
+UK Controller Plugin:timer2Enabled:1
+UK Controller Plugin:timer3Duration:90
+UK Controller Plugin:timer3Enabled:1
+UK Controller Plugin:timer4Duration:120
+UK Controller Plugin:timer4Enabled:1
+UK Controller Plugin:timer5Duration:180
+UK Controller Plugin:timer5Enabled:1
+UK Controller Plugin:missedApproachAudio:0
+UK Controller Plugin:missedApproachAudioCurrentUser:0
+UK Controller Plugin:missedApproachServiceProvision:0
+TopSky plugin:ACList/HOLDING LIST/m_Visible:0
+TopSky plugin:ACList/HOLDING LIST/m_X:20
+TopSky plugin:ACList/HOLDING LIST/m_Y:20
+TopSky plugin:ACList/HOLDING LIST/m_LineNumber:1
+TopSky plugin:ACList/HOLDING LIST/m_Resizable:1
+TopSky plugin:ACList/HOLDING LIST/m_OrderingColumn:1
+TopSky plugin:ACList/HOLDING LIST/m_Column_0:Label:6:0:10051:67:0:1:TopSky plugin:TopSky plugin:
+TopSky plugin:ACList/HOLDING LIST/m_Column_1: Callsign:10:0:10021:6:0:1:TopSky plugin:TopSky plugin:
+TopSky plugin:ACList/HOLDING LIST/m_Column_2: AFL:5:0:10013:22:99:1:TopSky plugin:TopSky plugin:TopSky plugin
+TopSky plugin:ACList/HOLDING LIST/m_Column_3:-:2:0:10027:0:0:1:TopSky plugin::
+TopSky plugin:ACList/HOLDING LIST/m_Column_4:  CFL:6:0:10002:12:99:1:TopSky plugin:TopSky plugin:TopSky plugin
+TopSky plugin:ACList/HOLDING LIST/m_Column_5:HPT:6:0:10024:65:0:1:TopSky plugin:TopSky plugin:
+TopSky plugin:ACList/HOLDING LIST/m_Column_6:ETO:4:0:10036:0:0:1:TopSky plugin::
+TopSky plugin:ACList/PREACTIVATION LIST/m_Visible:0
+TopSky plugin:ACList/PREACTIVATION LIST/m_X:20
+TopSky plugin:ACList/PREACTIVATION LIST/m_Y:20
+TopSky plugin:ACList/PREACTIVATION LIST/m_LineNumber:1
+TopSky plugin:ACList/PREACTIVATION LIST/m_Resizable:1
+TopSky plugin:ACList/PREACTIVATION LIST/m_OrderingColumn:1
+TopSky plugin:ACList/PREACTIVATION LIST/m_Column_0: Callsign:10:0:10021:6:0:1:TopSky plugin:TopSky plugin:
+TopSky plugin:ACList/PREACTIVATION LIST/m_Column_1:  CFL:6:0:10002:12:99:1:TopSky plugin:TopSky plugin:TopSky plugin
+TopSky plugin:ACList/SECTOR LIST/m_Visible:0
+TopSky plugin:ACList/SECTOR LIST/m_X:299
+TopSky plugin:ACList/SECTOR LIST/m_Y:671
+TopSky plugin:ACList/SECTOR LIST/m_LineNumber:0
+TopSky plugin:ACList/SECTOR LIST/m_Resizable:1
+TopSky plugin:ACList/SECTOR LIST/m_OrderingColumn:1
+TopSky plugin:ACList/SECTOR LIST/m_Column_0: Callsign:10:0:10021:6:0:1:TopSky plugin:TopSky plugin:
+TopSky plugin:ACList/SECTOR LIST/m_Column_1:  CFL:6:0:10002:12:99:1:TopSky plugin:TopSky plugin:TopSky plugin
+TopSky plugin:ACList/Main VFR List/m_Visible:0
+TopSky plugin:ACList/Main VFR List/m_X:20
+TopSky plugin:ACList/Main VFR List/m_Y:20
+TopSky plugin:ACList/Main VFR List/m_LineNumber:1
+TopSky plugin:ACList/Main VFR List/m_Resizable:1
+TopSky plugin:ACList/Main VFR List/m_OrderingColumn:1
+TopSky plugin:ACList/Main VFR List/m_Column_0: Callsign:10:0:10021:6:0:1:TopSky plugin:TopSky plugin:
+TopSky plugin:ACList/Main VFR List/m_Column_1:  CFL:6:0:10002:12:99:1:TopSky plugin:TopSky plugin:TopSky plugin
+TopSky plugin:ACList/Secondary VFR List/m_Visible:0
+TopSky plugin:ACList/Secondary VFR List/m_X:20
+TopSky plugin:ACList/Secondary VFR List/m_Y:20
+TopSky plugin:ACList/Secondary VFR List/m_LineNumber:1
+TopSky plugin:ACList/Secondary VFR List/m_Resizable:1
+TopSky plugin:ACList/Secondary VFR List/m_OrderingColumn:1
+TopSky plugin:ACList/Secondary VFR List/m_Column_0: Callsign:10:0:10021:6:0:1:TopSky plugin:TopSky plugin:
+TopSky plugin:ACList/Secondary VFR List/m_Column_1:  CFL:6:0:10002:12:99:1:TopSky plugin:TopSky plugin:TopSky plugin
+TopSky plugin:ACList/ETWR List/m_Visible:0
+TopSky plugin:ACList/ETWR List/m_X:20
+TopSky plugin:ACList/ETWR List/m_Y:20
+TopSky plugin:ACList/ETWR List/m_LineNumber:1
+TopSky plugin:ACList/ETWR List/m_Resizable:1
+TopSky plugin:ACList/ETWR List/m_OrderingColumn:1
+TopSky plugin:ACList/ETWR List/m_Column_0: Callsign:10:0:10021:6:0:1:TopSky plugin:TopSky plugin:
+TopSky plugin:ACList/ETWR List/m_Column_1:  CFL:6:0:10002:12:99:1:TopSky plugin:TopSky plugin:TopSky plugin
+TopSky plugin:ACList/Resectorisation List/m_Visible:0
+TopSky plugin:ACList/Resectorisation List/m_X:20
+TopSky plugin:ACList/Resectorisation List/m_Y:20
+TopSky plugin:ACList/Resectorisation List/m_LineNumber:1
+TopSky plugin:ACList/Resectorisation List/m_Resizable:1
+TopSky plugin:ACList/Resectorisation List/m_OrderingColumn:1
+TopSky plugin:ACList/Resectorisation List/m_Column_0: Callsign:10:0:10021:6:0:1:TopSky plugin:TopSky plugin:
+TopSky plugin:ACList/Resectorisation List/m_Column_1:  CFL:6:0:10002:12:99:1:TopSky plugin:TopSky plugin:TopSky plugin
+TopSky plugin:ACList/Traffic Management List 1/m_Visible:0
+TopSky plugin:ACList/Traffic Management List 1/m_X:20
+TopSky plugin:ACList/Traffic Management List 1/m_Y:20
+TopSky plugin:ACList/Traffic Management List 1/m_LineNumber:1
+TopSky plugin:ACList/Traffic Management List 1/m_Resizable:1
+TopSky plugin:ACList/Traffic Management List 1/m_OrderingColumn:1
+TopSky plugin:ACList/Traffic Management List 1/m_Column_0: Callsign:10:0:10021:6:0:1:TopSky plugin:TopSky plugin:
+TopSky plugin:ACList/Traffic Management List 1/m_Column_1:  CFL:6:0:10002:12:99:1:TopSky plugin:TopSky plugin:TopSky plugin
+TopSky plugin:ACList/Traffic Management List 2/m_Visible:0
+TopSky plugin:ACList/Traffic Management List 2/m_X:20
+TopSky plugin:ACList/Traffic Management List 2/m_Y:20
+TopSky plugin:ACList/Traffic Management List 2/m_LineNumber:1
+TopSky plugin:ACList/Traffic Management List 2/m_Resizable:1
+TopSky plugin:ACList/Traffic Management List 2/m_OrderingColumn:1
+TopSky plugin:ACList/Traffic Management List 2/m_Column_0: Callsign:10:0:10021:6:0:1:TopSky plugin:TopSky plugin:
+TopSky plugin:ACList/Traffic Management List 2/m_Column_1:  CFL:6:0:10002:12:99:1:TopSky plugin:TopSky plugin:TopSky plugin
+TopSky plugin:ACList/LOAD/m_Visible:0
+TopSky plugin:ACList/LOAD/m_X:20
+TopSky plugin:ACList/LOAD/m_Y:20
+TopSky plugin:ACList/LOAD/m_LineNumber:1
+TopSky plugin:ACList/LOAD/m_Resizable:1
+TopSky plugin:ACList/LOAD/m_OrderingColumn:1
+TopSky plugin:ACList/LOAD/m_Column_0: Callsign:10:0:10021:6:0:1:TopSky plugin:TopSky plugin:
+TopSky plugin:ACList/LOAD/m_Column_1: CFL:5:0:10002:12:99:1:TopSky plugin:TopSky plugin:TopSky plugin
+TopSky plugin:ACList/Uncontrolled List 1/m_Visible:0
+TopSky plugin:ACList/Uncontrolled List 1/m_X:20
+TopSky plugin:ACList/Uncontrolled List 1/m_Y:20
+TopSky plugin:ACList/Uncontrolled List 1/m_LineNumber:1
+TopSky plugin:ACList/Uncontrolled List 1/m_Resizable:1
+TopSky plugin:ACList/Uncontrolled List 1/m_OrderingColumn:1
+TopSky plugin:ACList/Uncontrolled List 1/m_Column_0: Callsign:10:0:10021:6:0:1:TopSky plugin:TopSky plugin:
+TopSky plugin:ACList/Uncontrolled List 1/m_Column_1: CFL:5:0:10002:12:99:1:TopSky plugin:TopSky plugin:TopSky plugin
+TopSky plugin:ACList/Uncontrolled List 2/m_Visible:0
+TopSky plugin:ACList/Uncontrolled List 2/m_X:20
+TopSky plugin:ACList/Uncontrolled List 2/m_Y:20
+TopSky plugin:ACList/Uncontrolled List 2/m_LineNumber:1
+TopSky plugin:ACList/Uncontrolled List 2/m_Resizable:1
+TopSky plugin:ACList/Uncontrolled List 2/m_OrderingColumn:1
+TopSky plugin:ACList/Uncontrolled List 2/m_Column_0: Callsign:10:0:10021:6:0:1:TopSky plugin:TopSky plugin:
+TopSky plugin:ACList/Uncontrolled List 2/m_Column_1: CFL:5:0:10002:12:99:1:TopSky plugin:TopSky plugin:TopSky plugin
+Euroscope timers plugin:x:0
+Euroscope timers plugin:y:445
+Virtual Controller Assistant:SQK1:UIII:1
+Virtual Controller Assistant:SQK:0
+Virtual Controller Assistant:ALT1:UIII:GOLOS4C:5300:1
+Virtual Controller Assistant:ALT:1
+Virtual Controller Assistant:TIMESEP:1
+Virtual Controller Assistant:ADTTYPE:3
+Virtual Controller Assistant:EARLYCOL:30976
+Virtual Controller Assistant:LATECOL:180
+Virtual Controller Assistant:PUSHCOL:11796480
+Virtual Controller Assistant:TOTCOL:16508866
+Virtual Controller Assistant:LDTCOL:3303589
+Virtual Controller Assistant:MODTCOL:8486256
+Virtual Controller Assistant:ALT2:UIII:BOGRA4C:5300:1
+END
