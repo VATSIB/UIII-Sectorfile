@@ -1,9 +1,3 @@
-
-//ALL RIGHTS RESERVED © Alexandr Beliakov. FILES MUST NOT BE DISTRIBUTED TO NON-VATSIM MEMBERS!
-//This file is protected by copyright laws. 
-//You may install it on your computer for your personal, non-commercial use only. 
-//The data must not be copied, photocopied, translated, reverse engineered, decompiled or reduced to any electronic medium or machine legible form, neither completely nor in part.
-
 //Cursors
 //System_GUI_Scale_Cursors=1
 
@@ -34,26 +28,22 @@ Vector_QDM_Font=EuroScope
 
 Setup_COOPANS=1
 
-Airspace_P_Flag=UIII
+Airspace_P_Flag=UNKL,UIII,UNNT
 Airspace_ASSR_Type=0
 Airspace_ModeS_Code_VFR=7000
 Airspace_No_DUPE_Codes=1000,1200,2000,2200,7000,7700,7600,7500
-Airspace_SIGMET_Areas=UIII
-Airspace_NOTAM_Add=UIII
+Airspace_SIGMET_Areas=UNKL,UIII,UNNT
+Airspace_NOTAM_Add=UNKL,UIII,UNNT
 
 AIW=0
 AIW_Type=1
+AIW_Floor=3000
 
 APW=1
 APW_VFR=0
 APW_AlertSound=0
 APW_AlertSound_Filter=2
 APW_UseCFL=1
-
-System_MetricUnits_Altitude=1
-System_QFE_AD_Elevation=1675
-
-
 
 //---------- Symbology Alpha ----------//
 Color_Active_Map_Type_1=120,0,0
@@ -149,8 +139,8 @@ Malrt_Irregular=IRR
 
 Menu_MaxListItems=15
 
-MSAW=0
-MSAW_UseCFL=1
+MSAW_VFR=1
+
 
 MTCD=1
 MTCD_AHDG=1
@@ -178,13 +168,13 @@ STCA=1
 STCA_AlertSound=1
 STCA_AlertSound_Filter=2
 STCA_UseCFL=1
-STCA_Floor=1000
+STCA_Floor=2000
 
 System_TrueColorMode=1
 System_UseReportedGS=0
 System_ASP_IasMach=25000
+System_MetarSourceVATSIM=1
 System_UseRwyLockedColor=1
-System_UseSidStarAllocationColor=1
 System_TaxiTime=5
 System_FPASD=0
 
@@ -202,8 +192,8 @@ Vector_QDM_Airports=1
 
 Window_QNHTL=1
 Window_NOTAM=1
-Window_QNHTL=3,0,890
-Window_NOTAM=3,0,1100
+Window_QNHTL=3,0,850
+Window_NOTAM=3,0,1000
 
 WXR_Brightness=100
 WXR_Gain=100
@@ -211,9 +201,9 @@ WXR_Echo_dBZ_Hi=50
 WXR_Echo_dBZ_Med=30
 WXR_Echo_dBZ_Lo=20
 WXR_Latitude=53,5
-WXR_Latitude_Max=87
-WXR_Latitude_Min=45
+WXR_Latitude_Max=78
+WXR_Latitude_Min=49
 WXR_Longitude=137,1
-WXR_Longitude_Max=180
-WXR_Longitude_Min=78
+WXR_Longitude_Max=122
+WXR_Longitude_Min=68
 WXR_ImageSize=512
