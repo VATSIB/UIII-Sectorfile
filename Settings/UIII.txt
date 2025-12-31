@@ -133,8 +133,6 @@ m_AutoAssumeOnGroundStateChangeButton:0
 m_ShowTrackMilesInRouteButton:1
 m_FilterOutSquawks:
 m_EquipmentsIcaoFormat:1
-m_DoNotShowMessageHandlersInProxy:0
-m_DoNotShowMessageHandlersInMainIfProxyConnected:0
 m_ShowControllers:1
 m_ShowAircraft:1
 m_ShowTextMessages:0
@@ -164,10 +162,10 @@ m_ShowOverflightPlanes:1
 SET_ShowTrackingPlanes:1
 m_METARList:1
 m_ShowTitleMetar:1
-m_ConnectSELtoSIL:1
-m_ConnectDEPtoSEL:1
+m_ConnectSELtoSIL:0
+m_ConnectDEPtoSEL:0
 m_ConnectSILtoTOP:0
-m_ScreenNumber:1
+m_ScreenNumber:0
 m_ScreenPosition:0
 m_ScreenMaximized:0
 m_ShowTitleSelectedAc:0
@@ -193,8 +191,6 @@ m_ShowTsVccsMiniControl:1
 ScenarioEditorX:0
 ScenarioEditorY:0
 m_ShowSTARControllers:1
-MessageLinesNumber:4
-BackgroundGrphicsInThread:1
 VOICE
 AG:UIII_ATIS:126.900
 AG:UIII_CTR:133.400
