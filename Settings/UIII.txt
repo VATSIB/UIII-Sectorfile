@@ -5,7 +5,7 @@ m_ShowRouteFixName:1
 m_ShowRouteETA:1
 m_ShowCalculatedHeading:1
 m_ShowSimulatedData:0
-m_TransitionAltitude:6000
+m_TransitionAltitude:7000
 m_AllowConcernedACTagDown:1
 m_CenterlineDme:0.0
 m_CenterlineLength:20.0
@@ -133,8 +133,6 @@ m_AutoAssumeOnGroundStateChangeButton:0
 m_ShowTrackMilesInRouteButton:1
 m_FilterOutSquawks:
 m_EquipmentsIcaoFormat:1
-m_DoNotShowMessageHandlersInProxy:0
-m_DoNotShowMessageHandlersInMainIfProxyConnected:0
 m_ShowControllers:1
 m_ShowAircraft:1
 m_ShowTextMessages:0
@@ -167,7 +165,7 @@ m_ShowTitleMetar:1
 m_ConnectSELtoSIL:1
 m_ConnectDEPtoSEL:1
 m_ConnectSILtoTOP:0
-m_ScreenNumber:1
+m_ScreenNumber:0
 m_ScreenPosition:0
 m_ScreenMaximized:0
 m_ShowTitleSelectedAc:0
@@ -193,8 +191,6 @@ m_ShowTsVccsMiniControl:1
 ScenarioEditorX:0
 ScenarioEditorY:0
 m_ShowSTARControllers:1
-MessageLinesNumber:4
-BackgroundGrphicsInThread:1
 VOICE
 AG:UIII_ATIS:126.900
 AG:UIII_CTR:133.400
