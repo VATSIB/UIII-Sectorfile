@@ -208,3 +208,8 @@ WXR_Longitude=137,1
 WXR_Longitude_Max=122
 WXR_Longitude_Min=68
 WXR_ImageSize=512
+
+
+Shortcut_Map_Xfr_Combo=3,0x12
+Shortcut_Map_Xfr_Key=3,0x49 ; I
+Shortcut_Map_Target=3,VFR - IKT\VFR - IKT
