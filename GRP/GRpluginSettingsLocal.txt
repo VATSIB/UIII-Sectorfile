@@ -1,8 +1,0 @@
-Window_APP=1,2159,1019,400,400
-Window_APW_DefPos=1790,1171
-
-[UNKL]
-List_Inbound=*,2,2373,183
-List_Outbound=*,2,2235,183
-Window_APW=29,2/29,1790,1219
-Window_APW=11,2/11,1790,1219
