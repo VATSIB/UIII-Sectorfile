@@ -195,6 +195,7 @@ Window_QNHTL=1
 Window_NOTAM=1
 Window_QNHTL=3,0,850
 Window_NOTAM=3,0,1000
+Window_ASM=1
 
 WXR_Brightness=100
 WXR_Gain=100
