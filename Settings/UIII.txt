@@ -217,66 +217,66 @@ AG:UITT_TWR:118.300
 AG:UIUN_TWR:132.000
 END
 PROFILE
-PROFILE:UIII_APP:135:5
-ATIS2:Irkutsk-Approach. Иркутск-Подход
-ATIS3:From FL80 to FL200
-ATIS4:Discord Irkutsk ACC  https
-PROFILE:UIII_R_APP:140:5
-ATIS2:Irkutsk-Radar. Иркутск-Круг
-ATIS3:From 200m to FL80
-ATIS4:Discord Irkutsk ACC https
-PROFILE:UIII_TWR:30:4
-ATIS2:Irkutsk-Tower. Иркутск-Вышка.
-ATIS3:From GND to 500m
-ATIS4:Discord Irkutsk ACC  https
-PROFILE:UIII_GND:19:3
-ATIS2:Irkutsk-Ground. Иркутск-Руление. GND
-ATIS3:Discord Irkutsk ACC  https
-ATIS4:
-PROFILE:UIII_CTR:400:6
-ATIS2:Irkutsk-Control. Иркутск-Контроль
-ATIS3:From GND to UNL
-ATIS4:Discord Irkutsk ACC  https
-PROFILE:UIBB_APP:135:5
-ATIS2:Bratsk-Approach. Братск-Подход. GND-FL200
-ATIS3:Discord Irkutsk ACC  https
-ATIS4:
-PROFILE:UIAA_APP:135:5
-ATIS2:Chita-Approach. Чита-Подход. GND-FL230.
-ATIS3:Discord Irkutsk ACC  https
-ATIS4:
-PROFILE:UIUU_APP:90:5
-ATIS2:Ulan-Ude Approach. Улан-Удэ-Подход. GND-FL200
-ATIS3:Discord Irkutsk ACC https
-ATIS4:
-PROFILE:UIUU_TWR:30:4
-ATIS2:Ulan-Ude Tower. Улан-Удэ-Вышка
-ATIS3:Discord Irkutsk ACC  https
-ATIS4:
-PROFILE:UIAA_TWR:30:4
-ATIS2:Chita-Tower. Чита-Вышка. 
-ATIS3:Discord Irkutsk ACC  https
-ATIS4:
-PROFILE:UIBB_TWR:30:4
-ATIS2:Bratsk-Tower. Братск-Вышка.
-ATIS3:Discord Irkutsk ACC  https
-ATIS4:
-PROFILE:Your callsign:135:0
+PROFILE:%%_OBS:300:0
 ATIS2:
 ATIS3:
 ATIS4:
-PROFILE:UIII_E_CTR:400:6
-ATIS2:Irkutsk-Control E. Иркутск-Контроль E
-ATIS3:From GND to UNL
-ATIS4:Discord Irkutsk ACC  https
-PROFILE:UIII_W_CTR:400:6
-ATIS2:Irkutsk-Control W. Иркутск-Контроль W
-ATIS3:From GND to UNL
-ATIS4:Discord Irkutsk ACC  https
-PROFILE:UIII_N_CTR:400:6
-ATIS2:Irkutsk-Control N. Иркутск-Контроль N
-ATIS3:From GND to UNL
-ATIS4:Discord Irkutsk ACC  https
+PROFILE:UIII_CTR:500:6
+ATIS2:"Irkutsk Control" - "Иркутск Контроль"
+ATIS3:ATC up to UNL | AIRAC 2513 or later is required
+ATIS4:Covering the entire Irkutsk FIR | You have feedback? Submit it at vats.im/UIxx!
+PROFILE:UIII_W_CTR:500:6
+ATIS2:"Irkutsk Control" - "Иркутск Контроль"
+ATIS3:ATC up to UNL | AIRAC 2513 or later is required
+ATIS4:Covering the entire Irkutsk FIR | You have feedback? Submit it at vats.im/UIxx!
+PROFILE:UIII_N_CTR:500:6
+ATIS2:"Irkutsk Control" - "Иркутск Контроль"
+ATIS3:ATC up to UNL | AIRAC 2513 or later is required
+ATIS4:Covering the entire Irkutsk FIR | You have feedback? Submit it at vats.im/UIxx!
+PROFILE:UIII_E_CTR:500:6
+ATIS2:"Irkutsk Control" - "Иркутск Контроль"
+ATIS3:ATC up to UNL | AIRAC 2513 or later is required
+ATIS4:Covering the entire Irkutsk FIR | You have feedback? Submit it at vats.im/UIxx!
+PROFILE:UIII_APP:150:5
+ATIS2:"Irkutsk Approach" - "Иркутск Подход"
+ATIS3:ATC up to FL200 | AIRAC 2513 or later is required | When first contact, acknowledge information ATIS.
+ATIS4:Covering the entire Irkutsk FIR | You have feedback? Submit it at vats.im/UIxx!
+PROFILE:UIII_R_APP:150:5
+ATIS2:"Irkutsk Radar" - "Иркутск Круг"
+ATIS3:ATC up to FL80 | AIRAC 2513 or later is required | When first contact, acknowledge information ATIS.
+ATIS4:Covering the entire Irkutsk FIR | You have feedback? Submit it at vats.im/UIxx!
+PROFILE:UIII_TWR:50:4
+ATIS2:"Irkutsk Tower" - "Иркутск Вышка"
+ATIS3:AIRAC 2513 or later is required | Monitor ATIS on 126.900
+ATIS4:Covering the entire Irkutsk FIR | You have feedback? Submit it at vats.im/UIxx!
+PROFILE:UIII_GND:20:3
+ATIS2:"Irkutsk Ground" - "Иркутск Руление"
+ATIS3:AIRAC 2513 or later is required | When first contact, acknowledge information ATIS.
+ATIS4:Covering the entire Irkutsk FIR | You have feedback? Submit it at vats.im/UIxx!
+PROFILE:UIBB_APP:150:5
+ATIS2:"Bratsk Approach" - "Братск Подход"
+ATIS3:ATC up to FL200 | AIRAC 2513 or later is required | When first contact, acknowledge information ATIS.
+ATIS4:Covering the entire Irkutsk FIR | You have feedback? Submit it at vats.im/UIxx!
+PROFILE:UIBB_TWR:50:4
+ATIS2:"Bratsk Tower" - "Братск Вышка"
+ATIS3:AIRAC 2513 or later is required | Monitor ATIS on 126.900
+ATIS4:Covering the entire Irkutsk FIR | You have feedback? Submit it at vats.im/UIxx!
+PROFILE:UIUU_APP:150:5
+ATIS2:"Ulan-Ude Approach" - "Улан-Удэ Подход"
+ATIS3:ATC up to FL200 | AIRAC 2513 or later is required | When first contact, acknowledge information ATIS.
+ATIS4:Covering the entire Irkutsk FIR | You have feedback? Submit it at vats.im/UIxx!
+PROFILE:UIUU_TWR:50:4
+ATIS2:"Ulan-Ude Tower" - "Улан-Удэ Вышка"
+ATIS3:AIRAC 2513 or later is required | Monitor ATIS on 126.900
+ATIS4:Covering the entire Irkutsk FIR | You have feedback? Submit it at vats.im/UIxx!
+PROFILE:UIAA_APP:150:5
+ATIS2:"Chita Approach" - "Чита Подход"
+ATIS3:ATC up to FL230 | AIRAC 2513 or later is required | When first contact, acknowledge information ATIS.
+ATIS4:Covering the entire Irkutsk FIR | You have feedback? Submit it at vats.im/UIxx!
+PROFILE:UIII_TWR:50:4
+ATIS2:"Chita Tower" - "Чита Вышка"
+ATIS3:AIRAC 2513 or later is required | Monitor ATIS on 126.900
+ATIS4:Covering the entire Irkutsk FIR | You have feedback? Submit it at vats.im/UIxx!
 END
 PLUGINS
 UK Controller Plugin:prenoteNotify:0
