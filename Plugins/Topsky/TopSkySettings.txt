@@ -217,10 +217,11 @@ WXR_Longitude_Min=68
 WXR_ImageSize=512
 
 
-Shortcut_Map_Xfr_Combo=3,0x12
 Shortcut_Map_Xfr_Key=3,0x49 ; I
 Shortcut_Map_Target=3,VFR - IKT\VFR - IKT
 Shortcut_Map_Xfr_Key=2,0x4D ; M
 Shortcut_Map_Target=2,MSA\MSA
 Shortcut_Map_Xfr_Key=4,0x4E ; N
 Shortcut_Map_Target=4,UIII - Irkutsk - Irkutsk\NPUNKTI
+Shortcut_Map_Xfr_Key=5,0x47 ; G
+Shortcut_Map_Target=5,AIRPORTSG\AirportsG
