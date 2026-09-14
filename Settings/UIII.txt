@@ -32,7 +32,7 @@ m_AutoMessageForTextAircraft:1
 m_ShowRouteWhenAccepting:0
 m_AllowAssumedACTagDown:1
 m_InhibitAutoPushOnHandoff:0
-m_RandomSquawks:0
+m_RandomSquawks:1
 m_VFRSquawks:7000
 m_WhoIsOnlineURL:http://vatsim.metacraft.com/vatsim-data.txt
 m_AutoLoadMetarForActiveAirports:1
@@ -171,12 +171,12 @@ m_ScreenMaximized:0
 m_ShowTitleSelectedAc:0
 m_PlanesListX:1053
 m_PlanesListY:24
-m_MetarListX:1568
-m_MetarListY:216
+m_MetarListX:133
+m_MetarListY:45
 m_VoiceListX:1175
 m_VoiceListY:54
-m_ControllerListX:1342
-m_ControllerListY:176
+m_ControllerListX:0
+m_ControllerListY:47
 m_ShowPlaneRangeRingsTracked:0
 m_ShowPlaneRangeRingsUntracked:0
 m_PlaneRangeRingsDistance1:1.5
@@ -222,64 +222,64 @@ ATIS2:
 ATIS3:
 ATIS4:
 PROFILE:UIII_CTR:500:6
-ATIS2:"Irkutsk Control" - "Г€Г°ГЄГіГІГ±ГЄ ГЉГ®Г­ГІГ°Г®Г«Гј"
+ATIS2:"Irkutsk Control" - "Иркутск Контроль"
 ATIS3:ATC up to UNL | AIRAC 2513 or later is required
 ATIS4:Covering the entire Irkutsk FIR | You have feedback? Submit it at https//siberia.vatrus.info/feedback/$callsign
 PROFILE:UIII_W_CTR:500:6
-ATIS2:"Irkutsk Control" - "Г€Г°ГЄГіГІГ±ГЄ ГЉГ®Г­ГІГ°Г®Г«Гј"
+ATIS2:"Irkutsk Control" - "Иркутск Контроль"
 ATIS3:ATC up to UNL | AIRAC 2513 or later is required
 ATIS4:Covering the entire Irkutsk FIR | Sector West | You have feedback? Submit it at https//siberia.vatrus.info/feedback/$callsign
 PROFILE:UIII_N_CTR:500:6
-ATIS2:"Irkutsk Control" - "Г€Г°ГЄГіГІГ±ГЄ ГЉГ®Г­ГІГ°Г®Г«Гј"
+ATIS2:"Irkutsk Control" - "Иркутск Контроль"
 ATIS3:ATC up to UNL | AIRAC 2513 or later is required
 ATIS4:Covering the entire Irkutsk FIR | Sector North | You have feedback? Submit it at https//siberia.vatrus.info/feedback/$callsign
 PROFILE:UIII_E_CTR:500:6
-ATIS2:"Irkutsk Control" - "Г€Г°ГЄГіГІГ±ГЄ ГЉГ®Г­ГІГ°Г®Г«Гј"
+ATIS2:"Irkutsk Control" - "Иркутск Контроль"
 ATIS3:ATC up to UNL | AIRAC 2513 or later is required
 ATIS4:Covering the entire Irkutsk FIR | Sector East |  You have feedback? Submit it at https//siberia.vatrus.info/feedback/$callsign
 PROFILE:UIII_APP:150:5
-ATIS2:"Irkutsk Approach" - "Г€Г°ГЄГіГІГ±ГЄ ГЏГ®Г¤ГµГ®Г¤"
+ATIS2:"Irkutsk Approach" - "Иркутск Подход"
 ATIS3:ATC up to FL200 | AIRAC 2513 or later is required | When first contact, acknowledge information ATIS.
 ATIS4:Covering the entire Irkutsk | You have feedback? Submit it at https//siberia.vatrus.info/feedback/$callsign
 PROFILE:UIII_R_APP:150:5
-ATIS2:"Irkutsk Radar" - "Г€Г°ГЄГіГІГ±ГЄ ГЉГ°ГіГЈ"
+ATIS2:"Irkutsk Radar" - "Иркутск Круг"
 ATIS3:ATC up to FL80 | AIRAC 2513 or later is required | When first contact, acknowledge information ATIS.
 ATIS4:Covering the entire Irkutsk | You have feedback? Submit it at https//siberia.vatrus.info/feedback/$callsign
 PROFILE:UIII_TWR:50:4
-ATIS2:"Irkutsk Tower" - "Г€Г°ГЄГіГІГ±ГЄ Г‚Г»ГёГЄГ "
+ATIS2:"Irkutsk Tower" - "Иркутск Вышка"
 ATIS3:AIRAC 2513 or later is required | Monitor ATIS on 126.900
 ATIS4:Covering the entire Irkutsk | You have feedback? Submit it at https//siberia.vatrus.info/feedback/$callsign
 PROFILE:UIII_GND:20:3
-ATIS2:"Irkutsk Ground" - "Г€Г°ГЄГіГІГ±ГЄ ГђГіГ«ГҐГ­ГЁГҐ"
-ATIS3:AIRAC 2513 or later is required | When first contact, acknowledge information ATIS.
+ATIS2:"Irkutsk Ground" - "Иркутск Руление"
+ATIS3:AIRAC 2513 or later is required | Monitor ATIS on 126.900
 ATIS4:Covering the entire Irkutsk | You have feedback? Submit it at https//siberia.vatrus.info/feedback/$callsign
 PROFILE:UIBB_APP:150:5
-ATIS2:"Bratsk Approach" - "ГЃГ°Г ГІГ±ГЄ ГЏГ®Г¤ГµГ®Г¤"
+ATIS2:"Bratsk Approach" - "Братск Подход"
 ATIS3:ATC up to FL200 | AIRAC 2513 or later is required | When first contact, acknowledge information ATIS.
 ATIS4:Covering the entire Bratsk | You have feedback? Submit it at https//siberia.vatrus.info/feedback/$callsign
 PROFILE:UIBB_TWR:50:4
-ATIS2:"Bratsk Tower" - "ГЃГ°Г ГІГ±ГЄ Г‚Г»ГёГЄГ "
-ATIS3:AIRAC 2513 or later is required | Monitor ATIS on 126.900
+ATIS2:"Bratsk Tower" - "Братск Вышка"
+ATIS3:AIRAC 2513 or later is required | Monitor ATIS on 127.200
 ATIS4:Covering the entire Bratsk | You have feedback? Submit it at https//siberia.vatrus.info/feedback/$callsign
 PROFILE:UIUU_APP:150:5
-ATIS2:"Ulan-Ude Approach" - "Г“Г«Г Г­-Г“Г¤ГЅ ГЏГ®Г¤ГµГ®Г¤"
+ATIS2:"Ulan-Ude Approach" - "Улан-Удэ Подход"
 ATIS3:ATC up to FL200 | AIRAC 2513 or later is required | When first contact, acknowledge information ATIS.
 ATIS4:Covering the entire Ulan-Ude | You have feedback? Submit it at https//siberia.vatrus.info/feedback/$callsign
 PROFILE:UIUU_TWR:50:4
-ATIS2:"Ulan-Ude Tower" - "Г“Г«Г Г­-Г“Г¤ГЅ Г‚Г»ГёГЄГ "
-ATIS3:AIRAC 2513 or later is required | Monitor ATIS on 126.900
+ATIS2:"Ulan-Ude Tower" - "Улан-Удэ Вышка"
+ATIS3:AIRAC 2513 or later is required | Monitor ATIS on 126.600
 ATIS4:Covering the entire Ulan-Ude | You have feedback? Submit it at https//siberia.vatrus.info/feedback/$callsign
 PROFILE:UIAA_APP:150:5
-ATIS2:"Chita Approach" - "Г—ГЁГІГ  ГЏГ®Г¤ГµГ®Г¤"
+ATIS2:"Chita Approach" - "Чита Подход"
 ATIS3:ATC up to FL230 | AIRAC 2513 or later is required | When first contact, acknowledge information ATIS.
 ATIS4:Covering the entire Chita | You have feedback? Submit it at https//siberia.vatrus.info/feedback/$callsign
-PROFILE:UIII_TWR:50:4
-ATIS2:"Chita Tower" - "Г—ГЁГІГ  Г‚Г»ГёГЄГ "
-ATIS3:AIRAC 2513 or later is required | Monitor ATIS on 126.900
+PROFILE:UIUU_TWR:50:4
+ATIS2:"Chita Tower" - "Чита Вышка"
+ATIS3:AIRAC 2513 or later is required | Monitor ATIS on 134.800
 ATIS4:Covering the entire Chita | You have feedback? Submit it at https//siberia.vatrus.info/feedback/$callsign
 END
 VCCS
-Ts3Server:localhost
+Ts3Server:176.197.97.106
 Ts3Port:9988
 END
 PLUGINS
@@ -402,8 +402,8 @@ TopSky plugin:ACList/Uncontrolled List 2/m_Resizable:1
 TopSky plugin:ACList/Uncontrolled List 2/m_OrderingColumn:1
 TopSky plugin:ACList/Uncontrolled List 2/m_Column_0: Callsign:10:0:10021:6:0:1:TopSky plugin:TopSky plugin:
 TopSky plugin:ACList/Uncontrolled List 2/m_Column_1: CFL:5:0:10002:12:99:1:TopSky plugin:TopSky plugin:TopSky plugin
-Euroscope timers plugin:x:0
-Euroscope timers plugin:y:445
+Euroscope timers plugin:x:707
+Euroscope timers plugin:y:24
 Virtual Controller Assistant:SQK1:UIII:1
 Virtual Controller Assistant:SQK:0
 Virtual Controller Assistant:ALT1:UIII:GOLOS4C:5300:1
