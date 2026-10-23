@@ -23,38 +23,38 @@ NDBs:frequency:6579300:3.5:0:0:0
 Runways:centerline:8421504:3.5:0:0:7
 Runways:extended centerline:14803425:3.5:0:0:7
 Runways:name:8421504:3.5:0:0:7
-Datablock:non concerned:14803425:3.5:0:1:7
-Datablock:notified:14803425:3.5:0:1:7
-Datablock:assumed:16777215:3.5:0:1:7
-Datablock:transfer to me initiated:16777017:3.5:0:1:7
-Datablock:redundant:16777215:3.5:0:1:7
-Datablock:information:65535:3.5:0:0:7
-Datablock:even flight level:16777215:3.5:0:0:7
-Datablock:odd flight level:16777215:3.5:0:0:7
-Datablock:arrivals:16777215:3.5:0:0:7
-Datablock:departures:16777215:3.5:0:0:7
-Datablock:user 1:8912896:3.5:0:0:7
-Datablock:user 2:0:3.5:0:0:7
-Datablock:user 3:15253247:3.5:0:0:7
-Datablock:user 4:65280:3.5:0:0:7
-Datablock:user 5:16699269:3.5:0:0:7
-Datablock:user 6:6560100:3.5:0:0:7
-Datablock:emergency:255:3.5:0:1:7
-Datablock:ongoing requested by me:16711680:3.5:0:0:7
-Datablock:ongoing requested by other:15921664:3.5:0:0:7
-Datablock:ongoing accepted:53760:3.5:0:0:7
-Datablock:ongoing refused:64:3.5:0:0:7
-Datablock:detailed background:8816262:3.5:0:0:7
-Datablock:active item background:8421631:3.5:0:0:7
-Datablock:arrival background:8816262:3.5:0:0:7
-Datablock:departure background:11842740:1.4:0:0:7
+Datablock:non concerned:14803425:3.3:0:1:7
+Datablock:notified:14803425:3.3:0:1:7
+Datablock:assumed:16777215:3.3:0:1:7
+Datablock:transfer to me initiated:16777017:3.3:0:1:7
+Datablock:redundant:16777215:3.3:0:1:7
+Datablock:information:65535:3.3:0:0:7
+Datablock:even flight level:16777215:3.3:0:0:7
+Datablock:odd flight level:16777215:3.3:0:0:7
+Datablock:arrivals:16777215:3.3:0:0:7
+Datablock:departures:16777215:3.3:0:0:7
+Datablock:user 1:8912896:3.3:0:0:7
+Datablock:user 2:0:3.3:0:0:7
+Datablock:user 3:15253247:3.3:0:0:7
+Datablock:user 4:65280:3.3:0:0:7
+Datablock:user 5:16699269:3.3:0:0:7
+Datablock:user 6:6560100:3.3:0:0:7
+Datablock:emergency:255:3.3:0:1:7
+Datablock:ongoing requested by me:16711680:3.3:0:0:7
+Datablock:ongoing requested by other:15921664:3.3:0:0:7
+Datablock:ongoing accepted:53760:3.3:0:0:7
+Datablock:ongoing refused:64:3.3:0:0:7
+Datablock:detailed background:8816262:3.3:0:0:7
+Datablock:active item background:8421631:3.3:0:0:7
+Datablock:arrival background:8816262:3.3:0:0:7
+Datablock:departure background:11842740:3.3:0:0:7
 Datablock:AC list background:9803157:3.5:0:0:7
 Datablock:AC list selected background:8224125:3.2:0:0:7
-Datablock:dimmed at conflict detection:5263440:3.5:0:0:7
-Datablock:SCTA warning rectangle:3289855:3.5:0:0:7
-Datablock:SCTA CFL used warning rectangle:65535:3.5:0:0:7
-Datablock:SCTA warning leader:3289855:3.5:0:3:7
-Datablock:SCTA CFL used warning leader:65535:3.5:0:3:7
+Datablock:dimmed at conflict detection:5263440:3.3:0:0:7
+Datablock:SCTA warning rectangle:3289855:3.3:0:0:7
+Datablock:SCTA CFL used warning rectangle:65535:3.3:0:0:7
+Datablock:SCTA warning leader:3289855:3.3:0:3:7
+Datablock:SCTA CFL used warning leader:65535:3.3:0:3:8
 Controller:normal:65535:3.5:0:0:7
 Controller:breaking:13408767:3.5:0:0:7
 Controller:timeout:16777215:3.5:0:0:7
