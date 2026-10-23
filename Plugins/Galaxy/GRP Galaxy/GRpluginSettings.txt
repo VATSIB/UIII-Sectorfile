@@ -1,32 +1,26 @@
-//ALL RIGHTS RESERVED © Alexandr Beliakov. FILES MUST NOT BE DISTRIBUTED TO NON-VATSIM MEMBERS!
-//This file is protected by copyright laws. 
-//You may install it on your computer for your personal, non-commercial use only. 
-//The data must not be copied, photocopied, translated, reverse engineered, decompiled or reduced to any electronic medium or machine legible form, neither completely nor in part.
-
-
 //Colors
-Color_WTitleBar=128,128,128
-Color_WTitleText=32,32,32
-Color_WBackground2=24,24,24
-Color_Warning=224,0,0
-Color_WarningText=255,255,255
-Color_Departure=255,255,255
-Color_Arrival=255,255,255
-Color_Unknown=224,224,224
-Color_RawVideo=194,172,172
-Color_TSW2_Background=0,0,0
+Color_Arrival=200,200,0
+Color_Departure=0,200,200
+Color_Unknown=200,200,200
+Color_New_Stand=245,100,0
+Color_Caution=192,192,192
+Color_Warning=232,224,8
+Color_WarningText=0,0,0
+Color_Selected=10,205,10
+Color_SelectedLabelFill_Gnd=50,50,50
+Color_SelectedLabelBorder_Gnd=0,0,0
+Color_WTitleBar=112,112,112
+Color_WTitleText=255,255,255
+Color_WForeground=0,0,0
 Color_WBackground=24,24,24
 Color_WBackground2=24,24,24
-Color_SelectedLabelFill_App=33,33,33
-Color_SelectedLabelFill_Gnd=70,70,70
 Color_WBackground3=70,70,70
 Color_WForeground=250,250,250
-Color_Text_Notes=255,255,255
-Color_Caution=255,255,0
-Color_CautionText=0,0,0
+Color_RawVideo=255,255,0
+Color_RawVideoHistory=111,111,60
 
 Equip_ProMode=1
-
+System_TowerMode_AltFilter_Low=500
 System_AutoAssignDist=20
 System_CMAC_NoContact_Distance_Info=3.0
 System_CMAC_NoContact_Time_Info=90
@@ -40,31 +34,36 @@ Track_Heading_Line=1
 Track_HistoryDots_GND=2
 Track_PredictionLine_TWR=1
 Track_PredictionLine_APP=1
+Color_TSW_Background=0,0,0
 
-Window_APP=1,0,48,550,550
-Window_APP_Extensions=16
-Window_APP_Scale=13
-Window_APP_Rotation=9
+GroundLabel=1
 
-//State
+//---------------------------State---------------------------
 
-System_State_DeIce=STAND BY
-System_State_StartUp=START UP
-System_State_LineUp=LINE UP
-System_State_Depa=DEP
-System_State_Parked=PARKPOS
+System_State_OnFreq=On Freq
+System_State_DeIce=Stand By
+System_State_DeIce=DeIce
+System_State_StartUp=Start Up
+System_State_Push=Push
+System_State_Taxi_In=Taxi
+System_State_Taxi_Out=Taxi
+System_State_LineUp=Line Up
+System_State_Depa=Take Off
+System_State_Parked=Parked
+
+//-----------------------------------------------------------
 
 GroundLabel_Transparency_Bg=200
 GroundLabel_Transparency_Bd=255
-GroundLabel_FontSize=12
+GroundLabel_FontSize=11
 GroundLabel_UseSelColor=1
 GroundLabel_Transparency_Bg=255
 
-AppLabel_FontSize=12
+AppLabel_FontSize=11
 AppLabel_UseSelColor=1
 AppLabel_Transparency_Bg=255
 
-ApwLabel_FontSize=12
+ApwLabel_FontSize=11
 ApwLabel_UseSelColor=1
 ApwLabel_Transparency_Bg=255
 
@@ -77,19 +76,22 @@ Label_WTC=1,1,1,1
 Label_DEP=1,1,1,1
 Label_DRWY=0,1,1,0
 
-//Labels
+// ==============LABEL-GND=======================
 
-Label=GND:DEP:0:ALRT,0,0:ASSR_E,0,1
+Label=GND:DEP:0:ALRT,0,0:ASSR_E,0,1:RMK,0,1
 Label=GND:DEP:1:COMM,0,0:CALLSIGN,0,1:DRWY,0,1
 Label=GND:DEP:2:ATYP,0,1:WTC,0,1
-Label=GND:DEP:3:DEP,0,1:RMK,0,1
+Label=GND:DEP:3:AFL,0,0:GS,0,2
+Label=GND:DEP:4:DEP,0,1:RMK,0,1
 
 Label=GND:ARR:0:ALRT,0,0:ASSR_E,0,1
 Label=GND:ARR:1:COMM,0,0:CALLSIGN,0,1:STAND,0,1
 Label=GND:ARR:2:ATYP,0,1:WTC,0,1
 Label=GND:ARR:3:RMK,0,1
+Label=GND:ARR:4:AFL,0,0:GS,0,2
+// ==============LABEL-TWR=======================
 
-Label=TWR:DEP:0:ALRT,0,0:ASSR_E,0,1
+Label=TWR:DEP:0:ALRT,0,0:ASSR_E,0,1:RMK,0,1
 Label=TWR:DEP:1:COMM,0,0:CALLSIGN,0,1:ATYP,0,2:WTC,0,1
 Label=TWR:DEP:2:AFL+VS,0,1,20:GS,0,1,1
 Label=TWR:DEP:3:DEP,0,1:RMK,0,1
@@ -98,6 +100,7 @@ Label=TWR:ARR:0:ALRT,0,0:ASSR_E,0,1
 Label=TWR:ARR:1:COMM,0,0:CALLSIGN,0,1:ATYP,0,2:WTC,0,1
 Label=TWR:ARR:2:AFL+VS,0,1,20:GS,0,1,1
 Label=TWR:ARR:3:ARWY,0,1:RMK,0,1
+// ==============LABEL-ARR=======================
 
 Label=APP:DEP:0:ALRT,0,0:ASSR_E,0,1,1:COMM,0,1
 Label=APP:DEP:1:CALLSIGN,0,0
@@ -113,6 +116,7 @@ Label=APP:OTH:0:ALRT,0,0:ASSR_E,0,1,1:COMM,0,1
 Label=APP:OTH:1:CALLSIGN,0,0
 Label=APP:OTH:2:ATYP,0,0:WTC,0,4
 Label=APP:OTH:3:AFL,0,0:GS,0,2
+// ==============LABEL-APW=======================
 
 Label=APW:DEP:0:ALRT,0,0:ASSR_E,0,1,1:COMM,0,1
 Label=APW:DEP:1:CALLSIGN,0,0
@@ -132,7 +136,7 @@ Label=APW:OTH:3:AFL,0,0:GS,0,2
 //AIRPORTS
 
 [UIII]
-Airport_Elevation=1675
+Airport_Elevation=1688
 Airport_Radius=10.0
 Airport_TransAlt=5420
 Airport_Runway_Thr=12:N052.16.19.499:E104.22.33.848

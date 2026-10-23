@@ -44,7 +44,7 @@ SET_TransparentAcListBackground:0
 m_PutIncomingCoordinationToFirst:1
 m_AutoProxyMode:0
 m_TransparentAcListSelectedBackground:0
-m_TransparentDetailedTagBackground:0
+m_TransparentDetailedTagBackground:1
 m_TransparentDetailedTagSelectedItemBackground:0
 m_AllowDirectBeyondCOPX:0
 m_ShowAtisLetterInMETAR:0
@@ -172,7 +172,7 @@ m_ShowTitleSelectedAc:0
 m_PlanesListX:1053
 m_PlanesListY:24
 m_MetarListX:133
-m_MetarListY:45
+m_MetarListY:47
 m_VoiceListX:1175
 m_VoiceListY:54
 m_ControllerListX:0
@@ -224,59 +224,59 @@ ATIS4:
 PROFILE:UIII_CTR:500:6
 ATIS2:"Irkutsk Control" - "Иркутск Контроль"
 ATIS3:ATC up to UNL | AIRAC 2513 or later is required
-ATIS4:Covering the entire Irkutsk FIR | You have feedback? Submit it at https//siberia.vatrus.info/feedback/$callsign
+ATIS4:Covering the entire Irkutsk FIR | You have feedback? Submit it at vats.im/UIxx!
 PROFILE:UIII_W_CTR:500:6
 ATIS2:"Irkutsk Control" - "Иркутск Контроль"
 ATIS3:ATC up to UNL | AIRAC 2513 or later is required
-ATIS4:Covering the entire Irkutsk FIR | Sector West | You have feedback? Submit it at https//siberia.vatrus.info/feedback/$callsign
+ATIS4:Covering the entire Irkutsk FIR | Sector West | You have feedback? Submit it at vats.im/UIxx!
 PROFILE:UIII_N_CTR:500:6
 ATIS2:"Irkutsk Control" - "Иркутск Контроль"
 ATIS3:ATC up to UNL | AIRAC 2513 or later is required
-ATIS4:Covering the entire Irkutsk FIR | Sector North | You have feedback? Submit it at https//siberia.vatrus.info/feedback/$callsign
+ATIS4:Covering the entire Irkutsk FIR | Sector North | You have feedback? Submit it at vats.im/UIxx!
 PROFILE:UIII_E_CTR:500:6
 ATIS2:"Irkutsk Control" - "Иркутск Контроль"
 ATIS3:ATC up to UNL | AIRAC 2513 or later is required
-ATIS4:Covering the entire Irkutsk FIR | Sector East |  You have feedback? Submit it at https//siberia.vatrus.info/feedback/$callsign
+ATIS4:Covering the entire Irkutsk FIR | Sector East | You have feedback? Submit it at vats.im/UIxx!
 PROFILE:UIII_APP:150:5
 ATIS2:"Irkutsk Approach" - "Иркутск Подход"
 ATIS3:ATC up to FL200 | AIRAC 2513 or later is required | When first contact, acknowledge information ATIS.
-ATIS4:Covering the entire Irkutsk | You have feedback? Submit it at https//siberia.vatrus.info/feedback/$callsign
+ATIS4:Covering the entire Irkutsk | You have feedback? Submit it at vats.im/UIxx!
 PROFILE:UIII_R_APP:150:5
 ATIS2:"Irkutsk Radar" - "Иркутск Круг"
 ATIS3:ATC up to FL80 | AIRAC 2513 or later is required | When first contact, acknowledge information ATIS.
-ATIS4:Covering the entire Irkutsk | You have feedback? Submit it at https//siberia.vatrus.info/feedback/$callsign
+ATIS4:Covering the entire Irkutsk | You have feedback? Submit it at vats.im/UIxx!
 PROFILE:UIII_TWR:50:4
 ATIS2:"Irkutsk Tower" - "Иркутск Вышка"
 ATIS3:AIRAC 2513 or later is required | Monitor ATIS on 126.900
-ATIS4:Covering the entire Irkutsk | You have feedback? Submit it at https//siberia.vatrus.info/feedback/$callsign
+ATIS4:Covering the entire Irkutsk | You have feedback? Submit it at vats.im/UIxx!
 PROFILE:UIII_GND:20:3
 ATIS2:"Irkutsk Ground" - "Иркутск Руление"
 ATIS3:AIRAC 2513 or later is required | Monitor ATIS on 126.900
-ATIS4:Covering the entire Irkutsk | You have feedback? Submit it at https//siberia.vatrus.info/feedback/$callsign
+ATIS4:Covering the entire Irkutsk | You have feedback? Submit it at vats.im/UIxx!
 PROFILE:UIBB_APP:150:5
 ATIS2:"Bratsk Approach" - "Братск Подход"
 ATIS3:ATC up to FL200 | AIRAC 2513 or later is required | When first contact, acknowledge information ATIS.
-ATIS4:Covering the entire Bratsk | You have feedback? Submit it at https//siberia.vatrus.info/feedback/$callsign
+ATIS4:Covering the entire Bratsk | You have feedback? Submit it at vats.im/UIxx!
 PROFILE:UIBB_TWR:50:4
 ATIS2:"Bratsk Tower" - "Братск Вышка"
 ATIS3:AIRAC 2513 or later is required | Monitor ATIS on 127.200
-ATIS4:Covering the entire Bratsk | You have feedback? Submit it at https//siberia.vatrus.info/feedback/$callsign
+ATIS4:Covering the entire Bratsk | You have feedback? Submit it at vats.im/UIxx!
 PROFILE:UIUU_APP:150:5
 ATIS2:"Ulan-Ude Approach" - "Улан-Удэ Подход"
 ATIS3:ATC up to FL200 | AIRAC 2513 or later is required | When first contact, acknowledge information ATIS.
-ATIS4:Covering the entire Ulan-Ude | You have feedback? Submit it at https//siberia.vatrus.info/feedback/$callsign
+ATIS4:Covering the entire Ulan-Ude | You have feedback? Submit it at vats.im/UIxx!
 PROFILE:UIUU_TWR:50:4
 ATIS2:"Ulan-Ude Tower" - "Улан-Удэ Вышка"
 ATIS3:AIRAC 2513 or later is required | Monitor ATIS on 126.600
-ATIS4:Covering the entire Ulan-Ude | You have feedback? Submit it at https//siberia.vatrus.info/feedback/$callsign
+ATIS4:Covering the entire Ulan-Ude | You have feedback? Submit it at vats.im/UIxx!
 PROFILE:UIAA_APP:150:5
 ATIS2:"Chita Approach" - "Чита Подход"
 ATIS3:ATC up to FL230 | AIRAC 2513 or later is required | When first contact, acknowledge information ATIS.
-ATIS4:Covering the entire Chita | You have feedback? Submit it at https//siberia.vatrus.info/feedback/$callsign
+ATIS4:Covering the entire Chita | You have feedback? Submit it at vats.im/UIxx!
 PROFILE:UIUU_TWR:50:4
 ATIS2:"Chita Tower" - "Чита Вышка"
 ATIS3:AIRAC 2513 or later is required | Monitor ATIS on 134.800
-ATIS4:Covering the entire Chita | You have feedback? Submit it at https//siberia.vatrus.info/feedback/$callsign
+ATIS4:Covering the entire Chita | You have feedback? Submit it at vats.im/UIxx!
 END
 VCCS
 Ts3Server:176.197.97.106
