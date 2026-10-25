@@ -273,7 +273,7 @@ PROFILE:UIAA_APP:150:5
 ATIS2:"Chita Approach" - "Чита Подход"
 ATIS3:ATC up to FL230 | AIRAC 2513 or later is required | When first contact, acknowledge information ATIS.
 ATIS4:Covering the entire Chita | You have feedback? Submit it at vats.im/UIxx!
-PROFILE:UIUU_TWR:50:4
+PROFILE:UIAA_TWR:50:4
 ATIS2:"Chita Tower" - "Чита Вышка"
 ATIS3:AIRAC 2513 or later is required | Monitor ATIS on 134.800
 ATIS4:Covering the entire Chita | You have feedback? Submit it at vats.im/UIxx!
