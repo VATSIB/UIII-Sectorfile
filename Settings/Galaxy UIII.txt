@@ -40,7 +40,7 @@ m_LockShowRouteWhenAccepting:0
 m_VoiceAtisBuilderUrl:https://vatis.ru/atis.php?c=E71E9B7&arrp=$atisairport&arr=$arrrwy($atisairport)&dep=$deprwy($atisairport)&info=$atiscode
 m_DoNotUseAcceptedColor:0
 m_DoNotUseRefusedColor:0
-SET_TransparentAcListBackground:0
+SET_TransparentAcListBackground:1
 m_PutIncomingCoordinationToFirst:1
 m_AutoProxyMode:0
 m_TransparentAcListSelectedBackground:0
@@ -151,8 +151,8 @@ m_ShowCTRControllers:1
 m_ShowAPPControllers:1
 m_ShowTWRControllers:1
 m_ShowGNDControllers:1
-m_ShowATISControllers:1
-m_ShowOBSControllers:1
+m_ShowATISControllers:0
+m_ShowOBSControllers:0
 m_ShowUnidentifiedControllers:1
 m_ShowFreqUsers:1
 m_ShowAtisUsers:1
@@ -171,12 +171,12 @@ m_ScreenMaximized:1
 m_ShowTitleSelectedAc:1
 m_PlanesListX:1053
 m_PlanesListY:24
-m_MetarListX:1472
-m_MetarListY:42
+m_MetarListX:817
+m_MetarListY:39
 m_VoiceListX:1175
 m_VoiceListY:54
-m_ControllerListX:1621
-m_ControllerListY:43
+m_ControllerListX:973
+m_ControllerListY:24
 m_ShowPlaneRangeRingsTracked:0
 m_ShowPlaneRangeRingsUntracked:0
 m_PlaneRangeRingsDistance1:1.5
@@ -323,8 +323,8 @@ TopSky plugin:ACList/PREACTIVATION LIST/m_OrderingColumn:1
 TopSky plugin:ACList/PREACTIVATION LIST/m_Column_0: Callsign:10:0:10021:6:0:1:TopSky plugin:TopSky plugin:
 TopSky plugin:ACList/PREACTIVATION LIST/m_Column_1:  CFL:6:0:10002:12:99:1:TopSky plugin:TopSky plugin:TopSky plugin
 TopSky plugin:ACList/SECTOR LIST/m_Visible:1
-TopSky plugin:ACList/SECTOR LIST/m_X:1755
-TopSky plugin:ACList/SECTOR LIST/m_Y:24
+TopSky plugin:ACList/SECTOR LIST/m_X:1102
+TopSky plugin:ACList/SECTOR LIST/m_Y:43
 TopSky plugin:ACList/SECTOR LIST/m_LineNumber:0
 TopSky plugin:ACList/SECTOR LIST/m_Resizable:1
 TopSky plugin:ACList/SECTOR LIST/m_OrderingColumn:1
@@ -429,7 +429,7 @@ CCAMS:ACList/Mode S EHS/m_Column_2:HDG:5:1:502:0:0:1:CCAMS::
 CCAMS:ACList/Mode S EHS/m_Column_3:Roll:5:1:503:0:0:1:CCAMS::
 CCAMS:ACList/Mode S EHS/m_Column_4:GS:4:1:504:0:0:1:CCAMS::
 TopSky plugin:ACList/Sector List/m_Column_2:RFL:7:1:22:0:0:1:::
-TopSky plugin:ACList/Sector List/m_Column_3:S:3:1:23:12:15:1:::
+TopSky plugin:ACList/Sector List/m_Column_3:S:5:1:23:12:15:1:::
 vSMR:cpdlc_logon:UIXX
 vSMR:cpdlc_password:WbJGFHxgxKxjNhqDr
 vSMR:cpdlc_sound:1
