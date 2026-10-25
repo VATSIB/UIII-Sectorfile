@@ -402,7 +402,7 @@ TopSky plugin:ACList/Uncontrolled List 2/m_Resizable:1
 TopSky plugin:ACList/Uncontrolled List 2/m_OrderingColumn:1
 TopSky plugin:ACList/Uncontrolled List 2/m_Column_0: Callsign:10:0:10021:6:0:1:TopSky plugin:TopSky plugin:
 TopSky plugin:ACList/Uncontrolled List 2/m_Column_1: CFL:5:0:10002:12:99:1:TopSky plugin:TopSky plugin:TopSky plugin
-Euroscope timers plugin:x:707
+Euroscope timers plugin:x:705
 Euroscope timers plugin:y:24
 Virtual Controller Assistant:SQK1:UIII:1
 Virtual Controller Assistant:SQK:0
