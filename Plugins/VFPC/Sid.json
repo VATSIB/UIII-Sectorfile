@@ -1,0 +1,306 @@
+[
+  {
+    "icao": "UIII",
+    "sids": {
+      "BOGRA": [
+        {
+          "direction": "EVEN",
+          "airways": [
+            "A815"
+          ]
+        }
+      ],
+      "KA": [
+        {
+          "direction": "EVEN",
+          "airways": [
+            "A91",
+            "A45"
+          ]
+        },
+        {
+          "direction": "ODD",
+          "airways": [
+            "W243",
+            "W282",
+            "W225",
+            "W274",
+            "A91",
+            "A806",
+            "A45"
+          ]
+        }
+      ],
+      "GOLOS": [
+        {
+          "direction": "ODD",
+          "airways": [
+            "A810"
+          ]
+        }
+      ],
+      "IDENI": [
+        {
+          "direction": "ODD",
+          "airways": [
+            "A815",
+            "G917"
+          ]
+        },
+        {
+          "direction": "EVEN",
+          "airways": [
+            "G910"
+          ]
+        }
+      ],
+      "OSKEN": [
+        {
+          "direction": "ODD",
+          "airways": [
+            "A492"
+          ]
+        },
+        {
+          "direction": "EVEN",
+          "airways": [
+            "A823"
+          ]
+        }
+      ],
+      "ULTUK": [
+        {
+          "direction": "EVEN",
+          "airways": [
+            "A938",
+            "G909"
+          ]
+        }
+      ],
+      "BD": [
+        {
+          "direction": "EVEN",
+          "airways": [
+            "A935",
+            "W176",
+            "R497",
+            "W241",
+            "M98",
+            "M99",
+            "A937"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "icao": "UIAA",
+    "sids": {
+      "TESLO": [
+        {
+          "direction": "EVEN",
+          "airways": [
+            "B478"
+          ]
+        }
+      ],
+      "MAKID": [
+        {
+          "direction": "EVEN",
+          "airways": [
+            "A91"
+          ]
+        }
+      ],
+      "KONIR": [
+        {
+          "direction": "EVEN",
+          "airways": [
+            "A45"
+          ]
+        }
+      ],
+      "BUSOL": [
+        {
+          "direction": "EVEN",
+          "airways": [
+            "R809"
+          ]
+        }
+      ],
+      "LASAD": [
+        {
+          "direction": "ODD",
+          "airways": [
+            "A91"
+          ]
+        }
+      ],
+      "PIGUK": [
+        {
+          "direction": "ODD",
+          "airways": [
+            "W172"
+          ]
+        }
+      ],
+      "DIKRA": [
+        {
+          "direction": "ODD",
+          "airways": [
+            "T577"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "icao": "UIUU",
+    "sids": {
+      "TATUR": [
+        {
+          "direction": "EVEN",
+          "airways": [
+            "A807",
+            "A45"
+          ]
+        },
+        {
+          "direction": "ODD",
+          "airways": [
+            "A45",
+            "W265",
+            "W269"
+          ]
+        }
+      ],
+      "PILUG": [
+        {
+          "direction": "EVEN",
+          "airways": [
+            "B155"
+          ]
+        }
+      ],
+      "KUMAT": [
+        {
+          "direction": "ODD",
+          "airways": [
+            "A809"
+          ]
+        }
+      ],
+      "TEGMI": [
+        {
+          "direction": "EVEN",
+          "airways": [
+            "A809"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "icao": "UIBB",
+    "sids": {
+      "ARTUL": [
+        {
+          "direction": "EVEN",
+          "airways": [
+            "G490"
+          ]
+        }
+      ],
+      "ASBOK": [
+        {
+          "direction": "EVEN",
+          "airways": [
+            "B151"
+          ]
+        }
+      ],
+      "BEKOM": [
+        {
+          "direction": "EVEN",
+          "airways": [
+            "W270"
+          ]
+        }
+      ],
+      "GOMAK": [
+        {
+          "direction": "ODD",
+          "airways": [
+            "T549",
+            "A935",
+            "R705"
+          ]
+        }
+      ],
+      "LASLA": [
+        {
+          "direction": "EVEN",
+          "airways": [
+            "R351"
+          ]
+        }
+      ],
+      "LIRBI": [
+        {
+          "direction": "EVEN",
+          "airways": [
+            "W119"
+          ]
+        }
+      ],
+      "LIDKA": [
+        {
+          "direction": "ODD",
+          "airways": [
+            "G490"
+          ]
+        }
+      ],
+      "NALIL": [
+        {
+          "direction": "ODD",
+          "airways": [
+            "G363"
+          ]
+        }
+      ],
+      "NEGUT": [
+        {
+          "direction": "ODD",
+          "airways": [
+            "W119"
+          ]
+        }
+      ],
+      "NUGMA": [
+        {
+          "direction": "ODD",
+          "airways": [
+            "W271"
+          ]
+        }
+      ],
+      "RIMUL": [
+        {
+          "direction": "ODD",
+          "airways": [
+            "R351"
+          ]
+        }
+      ],
+      "UDEGA": [
+        {
+          "direction": "ODD",
+          "airways": [
+            "B151"
+          ]
+        }
+      ]
+    }
+  }
+]

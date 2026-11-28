@@ -1,23 +1,28 @@
-//Colors
-Color_Arrival=200,200,0
-Color_Departure=0,200,200
-Color_Unknown=200,200,200
-Color_New_Stand=245,100,0
-Color_Caution=192,192,192
-Color_Warning=232,224,8
-Color_WarningText=0,0,0
-Color_Selected=10,205,10
-Color_SelectedLabelFill_Gnd=50,50,50
-Color_SelectedLabelBorder_Gnd=0,0,0
+// ==============COLORS================
 Color_WTitleBar=112,112,112
 Color_WTitleText=255,255,255
-Color_WForeground=0,0,0
-Color_WBackground=24,24,24
-Color_WBackground2=24,24,24
-Color_WBackground3=70,70,70
-Color_WForeground=250,250,250
-Color_RawVideo=255,255,0
+Color_Warning=255,0,0
+Color_WarningText=0,0,0
+Color_Departure=0,180,180
+Color_Arrival=200,200,0
+Color_Unknown=150,150,150
+Color_RawVideo=150,150,0
 Color_RawVideoHistory=111,111,60
+Color_TSW_Background=0,0,0
+Color_SelectedLabelFill_Gnd=20,30,25
+Color_SelectedLabelBorder_Gnd=200,200,210
+Color_WBackground=135,135,135
+Color_WBackground2=135,135,135
+Color_WBackground3=135,135,135
+Color_WBackground4=135,135,135
+Color_WForeground=250,250,250
+Color_WForeground2=255,255,255
+Color_WForeground3=255,255,255
+Color_Text_Notes=255,255,255
+Color_WTitleButton=100,100,100
+Color_Caution=255,255,0
+Color_CautionText=0,0,0
+Color_Selected=50,200,50
 
 Equip_ProMode=1
 System_TowerMode_AltFilter_Low=500
@@ -26,6 +31,7 @@ System_CMAC_NoContact_Distance_Info=3.0
 System_CMAC_NoContact_Time_Info=90
 System_OSM=1
 System_TagColor=1
+System_SchengenArea=BI,EB,ED,EE,EF,EH,EK,EL,EN,EP,ES,ET,EV,EY,GC,LE,LF,LG,LH,LI,LJ,LK,LM,LO,LP,LS,LZ,LT,UA,UB,UD,LB,UM,UK,LR,LY,EG,UT
 
 RawVideo=1
 RawVideo_MaxHistory=5
@@ -37,61 +43,51 @@ Track_PredictionLine_APP=1
 Color_TSW_Background=0,0,0
 
 GroundLabel=1
+// ==============STATE===================
 
-//---------------------------State---------------------------
+System_State_DeIce=STANDBY
+System_State_StartUp=START
+System_State_LineUp=LUP
+System_State_Depa=TCL
+System_State_Parked=PARK
 
-System_State_OnFreq=On Freq
-System_State_DeIce=Stand By
-System_State_DeIce=DeIce
-System_State_StartUp=Start Up
-System_State_Push=Push
-System_State_Taxi_In=Taxi
-System_State_Taxi_Out=Taxi
-System_State_LineUp=Line Up
-System_State_Depa=Take Off
-System_State_Parked=Parked
-
-//-----------------------------------------------------------
-
-GroundLabel_Transparency_Bg=200
+// =====================================
+GroundLabel_Transparency_Bg=140
 GroundLabel_Transparency_Bd=255
 GroundLabel_FontSize=11
 GroundLabel_UseSelColor=1
-GroundLabel_Transparency_Bg=255
+GroundLabel_Transparency_Bg=140
 
 AppLabel_FontSize=11
 AppLabel_UseSelColor=1
-AppLabel_Transparency_Bg=255
+AppLabel_Transparency_Bg=140
 
 ApwLabel_FontSize=11
 ApwLabel_UseSelColor=1
-ApwLabel_Transparency_Bg=255
+ApwLabel_Transparency_Bg=140
 
-Label_AFL=1,0,1,1
-Label_ATYP=1,1,1,1
-Label_GS=1,1,1,1
-Label_RMK=0,1,1,0
-Label_STAND=1,1,1,1
+Label_ATYP=0,1,0
+Label_DRWY=0,0,0
+Label_RMK=0,1,0
+Label_STAND=0,1,0
+Label_GS=1,0,0
+Label_STS=0,1,0
 Label_WTC=1,1,1,1
-Label_DEP=1,1,1,1
-Label_DRWY=0,1,1,0
 
 // ==============LABEL-GND=======================
 
-Label=GND:DEP:0:ALRT,0,0:ASSR_E,0,1:RMK,0,1
-Label=GND:DEP:1:COMM,0,0:CALLSIGN,0,1:DRWY,0,1
-Label=GND:DEP:2:ATYP,0,1:WTC,0,1
-Label=GND:DEP:3:AFL,0,0:GS,0,2
-Label=GND:DEP:4:DEP,0,1:RMK,0,1
+Label=GND:DEP:0:ALRT,0,1:ASSR_E,0,1:COMM,0,1 
+Label=GND:DEP:1:CALLSIGN,0,1:DRWY,0,1,0
+Label=GND:DEP:2:ATYP,0,0:WTC,0,1,0:GS,0,1,20
+Label=GND:DEP:3:DEP,0,0:RMK,0,1
 
 Label=GND:ARR:0:ALRT,0,0:ASSR_E,0,1
 Label=GND:ARR:1:COMM,0,0:CALLSIGN,0,1:STAND,0,1
 Label=GND:ARR:2:ATYP,0,1:WTC,0,1
 Label=GND:ARR:3:RMK,0,1
-Label=GND:ARR:4:AFL,0,0:GS,0,2
 // ==============LABEL-TWR=======================
 
-Label=TWR:DEP:0:ALRT,0,0:ASSR_E,0,1:RMK,0,1
+Label=TWR:DEP:0:ALRT,0,0:ASSR_E,0,1
 Label=TWR:DEP:1:COMM,0,0:CALLSIGN,0,1:ATYP,0,2:WTC,0,1
 Label=TWR:DEP:2:AFL+VS,0,1,20:GS,0,1,1
 Label=TWR:DEP:3:DEP,0,1:RMK,0,1
@@ -133,12 +129,25 @@ Label=APW:OTH:1:CALLSIGN,0,0
 Label=APW:OTH:2:ATYP,0,0:WTC,0,4
 Label=APW:OTH:3:AFL,0,0:GS,0,2
 
-//AIRPORTS
+// ==============Window_APP=======================
+
+Window_APP_AltFilter=4500
+Window_APP_DefPos=600,1170
+Window_APP_DefSize=1000,200
+Window_APP_Extensions=11
+Window_APP_Extensions_TickWidth=0.25
+Window_APP_Scale=20.0
+
+Window_QNH=1,1850,45
+Window_QNH_DisplayUnits=3
+Window_QNH_SwitchUnits=0
+
+// ==============AIRPORTS=======================
 
 [UIII]
 Airport_Elevation=1688
 Airport_Radius=10.0
-Airport_TransAlt=5420
+Airport_TransAlt=7000
 Airport_Runway_Thr=12:N052.16.19.499:E104.22.33.848
 Airport_Runway_Thr=30:N052.15.43.880:E104.24.47.711
 Airport_Dep_Transfer_Height=1700
@@ -151,4 +160,4 @@ Airport_ModeA=1
 List_Stand_Items=13
 
 Window_2nd=0,0,48,250,250
-Window_2nd_Scale=15
+Window_2nd_Scale=10

@@ -62,7 +62,7 @@ SET_WTC_A380:J
 m_RotateRouteTexts:0
 m_NeverCloseFreqChat:1
 m_KeepScratchPadAfterDirect:1
-m_HiliteASELAircraft:0
+m_HiliteASELAircraft:1
 m_EnableVoiceRecognition:0
 m_VoiceRecognitionStyle:2
 m_SModeTransponders:IEFGRWQ
@@ -151,8 +151,8 @@ m_ShowCTRControllers:1
 m_ShowAPPControllers:1
 m_ShowTWRControllers:1
 m_ShowGNDControllers:1
-m_ShowATISControllers:0
-m_ShowOBSControllers:0
+m_ShowATISControllers:1
+m_ShowOBSControllers:1
 m_ShowUnidentifiedControllers:1
 m_ShowFreqUsers:1
 m_ShowAtisUsers:1
@@ -171,12 +171,12 @@ m_ScreenMaximized:1
 m_ShowTitleSelectedAc:1
 m_PlanesListX:1053
 m_PlanesListY:24
-m_MetarListX:817
-m_MetarListY:39
+m_MetarListX:1466
+m_MetarListY:49
 m_VoiceListX:1175
 m_VoiceListY:54
-m_ControllerListX:973
-m_ControllerListY:24
+m_ControllerListX:1610
+m_ControllerListY:42
 m_ShowPlaneRangeRingsTracked:0
 m_ShowPlaneRangeRingsUntracked:0
 m_PlaneRangeRingsDistance1:1.5
@@ -323,11 +323,11 @@ TopSky plugin:ACList/PREACTIVATION LIST/m_OrderingColumn:1
 TopSky plugin:ACList/PREACTIVATION LIST/m_Column_0: Callsign:10:0:10021:6:0:1:TopSky plugin:TopSky plugin:
 TopSky plugin:ACList/PREACTIVATION LIST/m_Column_1:  CFL:6:0:10002:12:99:1:TopSky plugin:TopSky plugin:TopSky plugin
 TopSky plugin:ACList/SECTOR LIST/m_Visible:1
-TopSky plugin:ACList/SECTOR LIST/m_X:1102
+TopSky plugin:ACList/SECTOR LIST/m_X:1741
 TopSky plugin:ACList/SECTOR LIST/m_Y:43
 TopSky plugin:ACList/SECTOR LIST/m_LineNumber:0
 TopSky plugin:ACList/SECTOR LIST/m_Resizable:1
-TopSky plugin:ACList/SECTOR LIST/m_OrderingColumn:1
+TopSky plugin:ACList/SECTOR LIST/m_OrderingColumn:4
 TopSky plugin:ACList/SECTOR LIST/m_Column_0:C/S:7:0:10021:6:141:1:TopSky plugin:TopSky plugin:TopSky plugin
 TopSky plugin:ACList/SECTOR LIST/m_Column_1:CFL:5:1:10002:12:99:1:TopSky plugin:TopSky plugin:TopSky plugin
 TopSky plugin:ACList/Main VFR List/m_Visible:0
@@ -402,8 +402,8 @@ TopSky plugin:ACList/Uncontrolled List 2/m_Resizable:1
 TopSky plugin:ACList/Uncontrolled List 2/m_OrderingColumn:1
 TopSky plugin:ACList/Uncontrolled List 2/m_Column_0: Callsign:10:0:10021:6:0:1:TopSky plugin:TopSky plugin:
 TopSky plugin:ACList/Uncontrolled List 2/m_Column_1: CFL:5:0:10002:12:99:1:TopSky plugin:TopSky plugin:TopSky plugin
-Euroscope timers plugin:x:1313
-Euroscope timers plugin:y:40
+Euroscope timers plugin:x:1367
+Euroscope timers plugin:y:24
 Virtual Controller Assistant:SQK1:UIII:1
 Virtual Controller Assistant:SQK:0
 Virtual Controller Assistant:ALT1:UIII:GOLOS4C:5300:1
